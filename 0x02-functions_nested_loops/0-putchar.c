@@ -2,13 +2,13 @@
 #include "main.h"
 
 /**
- * main - Prints Holberton
+ *main - Prints Holberton
  *
- * Return:Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
-	putchar(");
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
