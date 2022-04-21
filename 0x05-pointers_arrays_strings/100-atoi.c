@@ -8,9 +8,9 @@
 int _atoi(char *s)
 {
 	int i, j, n, m;
+
 	i = n = 0;
 	m = 1;
-
 	while ((*(s + i) < '0' || *(s + i) > '9') && (*(s + i) != '\0'))
 	{
 		if (*(s + i) == '-')
